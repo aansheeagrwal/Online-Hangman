@@ -80,6 +80,18 @@ Online-Hangman/
 ### 📸 Preview
 
 
+<img width="1895" height="952" alt="Screenshot 2025-07-20 001915" src="https://github.com/user-attachments/assets/780192e4-f4ac-43e4-a6d3-06411396568f" />
+
+<img width="938" height="458" alt="Screenshot 2025-07-20 002050" src="https://github.com/user-attachments/assets/0fc9715a-5118-408c-9ae5-d516a376ce2f" />
+
+<img width="948" height="472" alt="Screenshot 2025-07-20 002126" src="https://github.com/user-attachments/assets/4aa14bd0-bc14-44ac-8d2e-6a9e7e7fefbf" />
+<img width="1910" height="884" alt="Screenshot 2025-07-20 002214" src="https://github.com/user-attachments/assets/cd5cdacc-e19c-44fc-b3c7-81399fc6b159" />
+<img width="1864" height="899" alt="Screenshot 2025-07-20 002251" src="https://github.com/user-attachments/assets/b67c91e3-c09b-4699-b196-55ed3a3281a2" />
+
+<img width="1909" height="864" alt="Screenshot 2025-07-20 002309" src="https://github.com/user-attachments/assets/a444290d-e907-424e-9fa7-4e24166a55b1" />
+
+
+<img width="1898" height="931" alt="Screenshot 2025-07-20 002328" src="https://github.com/user-attachments/assets/2915034b-a968-43e6-82e6-3675a8518988" />
 
 ### ❤️ Why this game is cool?
 Because it’s not just guessing letters –
