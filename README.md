@@ -76,16 +76,20 @@ Online-Hangman/
 └── README.md              # Project description
 
 ```
+---
 ### 📸 Preview
 
 
----
+
 ### ❤️ Why this game is cool?
 Because it’s not just guessing letters –
 it’s fun, challenging, and feels like a mini gaming experience with music, boss fights, and party effects.
----
+
 ### 🤝 Contribution
 Pull requests are welcome! If you have ideas for new categories (like Guess the Tech Term or Guess the Brand), feel free to open an issue.
+
+---
+
 
 
 
