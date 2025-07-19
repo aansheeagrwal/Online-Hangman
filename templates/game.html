@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crazy Game - {{ category }}</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Category: {{ category }}</h1>
+    <p id="hint-text">Loading hint...</p>
+    <div id="phrase-display" class="phrase"></div>
+    <div id="keyboard" class="keyboard"></div>
+    <div class="status-panel">
+      <p id="status">Starting...</p>
+      <p>Attempts Left: <span id="attempts">6</span></p>
+      <p>Score: <span id="score">0</span></p>
+      <p>Time Left: <span id="timer">40</span> seconds</p>
+      <p>AI Prediction: <span id="ai-guess">--</span></p>
+      <div id="ai-comments"></div>
+    </div>
+  </div>
+
+  <!-- Boss Arena -->
+  <div id="boss-arena" class="hidden">
+    <h2>🔥 BOSS BATTLE 🔥</h2>
+    <canvas id="boss-canvas"></canvas>
+    <div id="boss-status"></div>
+  </div>
+
+  <canvas id="confetti-canvas"></canvas>
+
+  <script>
+    const category = "{{ category }}";
+  </script>
+  <script src="/static/script.js"></script>
+</body>
+</html>

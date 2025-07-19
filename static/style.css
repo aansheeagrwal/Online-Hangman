@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  transition: background 0.4s ease-in-out;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  text-shadow: 2px 2px #fcb69f;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  background: #ff3cac;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: transform 0.2s, background 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ff5ea2;
+  transform: scale(1.05);
+}
+
+.phrase {
+  font-size: 2em;
+  margin: 20px 0;
+  min-height: 40px;
+  color: #222;
+  font-weight: bold;
+}
+
+.keyboard button {
+  padding: 10px;
+  margin: 5px;
+  background: #ff7a00;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.keyboard button:hover {
+  background: #ff9d3f;
+  transform: scale(1.1);
+}
+
+.status-panel {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Confetti */
+#confetti-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Party mode */
+.party-mode {
+  animation: partyFlash 0.4s linear infinite;
+}
+
+@keyframes partyFlash {
+  0% { background-color: #ff3cac; }
+  25% { background-color: #784ba0; }
+  50% { background-color: #2b86c5; }
+  75% { background-color: #36d1dc; }
+  100% { background-color: #ff3cac; }
+}
+
+/* Boss Battle */
+#boss-arena {
+  position: relative;
+  text-align: center;
+  background: black;
+  color: #ff3333;
+  padding: 20px;
+  border: 4px solid #ff3333;
+  border-radius: 12px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+#boss-canvas {
+  display: block;
+  margin: 10px auto;
+  background: #111;
+  border: 2px solid #ff4444;
+  width: 100%;
+  height: 300px;
+}
+
+.hidden {
+  display: none;
+}
+
+body.boss-mode {
+  background: linear-gradient(45deg, #111, #333);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { background-color: #111; }
+  50% { background-color: #222; }
+  100% { background-color: #111; }
+}
+
+/* Difficulty Section */
+#difficulty-section p {
+  font-size: 1.3em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#difficulty-section button {
+  padding: 12px 30px;
+  font-size: 1.2em;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+#difficulty-section button:hover {
+  transform: scale(1.05);
+}
+
+#difficulty-section button:nth-child(2) {
+  background: #2ecc71; /* Easy */
+  color: #fff;
+}
+#difficulty-section button:nth-child(3) {
+  background: #f1c40f; /* Medium */
+  color: #fff;
+}
+#difficulty-section button:nth-child(4) {
+  background: #e74c3c; /* Hard */
+  color: #fff;
+}
