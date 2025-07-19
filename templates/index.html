@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crazy Guessing Game</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script>
+    function selectDifficulty(level) {
+      localStorage.setItem('difficulty', level);
+      document.getElementById('category-section').style.display = 'block';
+      document.getElementById('difficulty-section').style.display = 'none';
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Welcome to Crazy Guessing Game 🎮</h1>
+
+    <!-- Difficulty Section -->
+    <div id="difficulty-section">
+      <p>Choose Difficulty:</p>
+      <button class="btn" onclick="selectDifficulty('Easy')">Easy 🟢</button>
+      <button class="btn" onclick="selectDifficulty('Medium')">Medium 🟡</button>
+      <button class="btn" onclick="selectDifficulty('Hard')">Hard 🔴</button>
+    </div>
+
+    <!-- Category Section -->
+    <div id="category-section" style="display:none;">
+      <p>Select a category to start:</p>
+      <a href="/game/Movies" class="btn">🎬 Guess the Movie</a>
+      <a href="/game/Songs" class="btn">🎵 Guess the Song</a>
+      <a href="/game/Dialogues" class="btn">💬 Guess the Dialogue</a>
+      <a href="/game/Memes" class="btn">😂 Guess the Meme</a>
+    </div>
+  </div>
+</body>
+</html>
